@@ -20,6 +20,7 @@
     <tr>
         <th>E-mail</th>
         <th>Role</th>
+        <th>Location</th>
     </tr>
     </thead>
     <tbody>
@@ -27,6 +28,7 @@
     <tr>
         <td><a href="/user/${user.id}">${user.email}</a></td>
         <td>${user.role}</td>
+        <th>${user.location}</td>
     </tr>
     </#list>
     </tbody>

@@ -32,6 +32,10 @@
         <input type="password" name="passwordRepeated" id="passwordRepeated" required/>
     </div>
     <div>
+        <label for="location">Location</label>
+        <input type="password" name="location" id="location" required/>
+    </div>
+    <div>
         <label for="role">Role</label>
         <select name="role" id="role" required>
             <option <#if form.role == 'USER'>selected</#if>>USER</option>

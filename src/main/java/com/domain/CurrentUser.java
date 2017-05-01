@@ -23,6 +23,10 @@ public class CurrentUser extends org.springframework.security.core.userdetails.U
         return user.getRole();
     }
 
+    public String getLocation(){
+        return user.getLocation();
+    }
+
     @Override
     public String toString() {
         return "CurrentUser{" +
